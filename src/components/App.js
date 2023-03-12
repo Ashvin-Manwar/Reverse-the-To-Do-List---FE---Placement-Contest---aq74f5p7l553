@@ -26,7 +26,7 @@ function App() {
     {
     id: 'todo2',
     createdAt: '18:00',
-  },
+  }
   ]);
   const reverseOrder=()={
   setTodos([...todos].reverse());
